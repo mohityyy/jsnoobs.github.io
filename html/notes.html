@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/notes.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="all">
+        <div class="head">
+            <h1>JSNOOBS</h1>
+        </div>
+        <div class="header">
+            <a href="../index.html" class="a1"><i>HOME</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="../index.html#p1" class="a1"><i>PROJECTS</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="../index.html#ab"   class="a1"><i>ABOUT US</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#con" class="a1"><i>CONTACT</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    
+        </div>
+        <div id="p1" class="project" >
+            <h2>&nbsp; Mini Project</h2>
+            
+            <h3>&nbsp; 1:- Writing a Notes taking app  </h3>
+            <p>&nbsp; In this project('Notes taking website). We have display the <b>CRUD</b> operation by using <br>
+                
+               <B>&nbsp; 1.HBS (template written in HTML)<br>
+                &nbsp; 2.CSS<br>
+                &nbsp; 3.JAVASCRIPT<br>
+                &nbsp; 4.NODEJS<br>
+                &nbsp; 5.EXPRESS<br>
+                &nbsp; 6.MongoDB<br> 
+                &nbsp; 7.Mongoose<br>
+                &nbsp; 8.EXPRESS-handlebars<br>  <br><br><br>
+                <a href="https://github.com/mohityyy/notes-taking-website"><button id="b1">click for SOURCE CODE</button></a>
+                <p>FILE STRUCTURE IS GIVEN IN LAST OF THIS PAGE</p>
+            </p></B>
+            <h3>STEPS:-></h3><br>
+            <h3><b>step 1:-> first npm init   // used for setting up a new or existing npm package.</b></h3>
+            <img  id="im1"  src="../img/Capture6.JPG"  alt=""  style="width:100%"; ><br><br>
+            <h3><b>step 2:-> npm install this things.</b></h3>
+            <img  id="im1"  src="../img/Capture5.JPG"  alt=""  style="width:100%" height="400px" ><br><br><br>
+            <h3><b>step 3:-> Now make a model folder. In model folder make a <i>db.js</i> file and make a connection to database</b></h3>
+            <img  id="im1"  src="../img/carbon (7).png"  alt="" style="width:100%" height="400px" ><br><br><br>
+            <h3><b>step 4:-> Now create a file index.js(main file) for starting express server and setting views </b></h3>
+            <img  id="im1"  src="../img/carbon (8).png"  alt="" style="width:100%"; ><br><br><br>
+            <h3><b>step5:->We have to design the structure of the database so we have to make a new js file in models that is note.js</b></h3>
+            <img  id="im1"  src="../img/carbon (9).png"  alt="" style="width:100%" height="500px" ><br><br><br>
+            <p>//to insert user schema into mongoose we do call a model function it has two parameter 1st name of the schema and 2nd schema object<br>
+            mongoose.model('user', userSchema);</p>
+            <h3><b>step6:->now import this model into <i>db.js</i> file by require ('./note.js')</b></h3>
+            <p>//done with connecting nodejs application with mongodb</p>
+            <h3><b>step7:-> now create a server using express shown in step4:->('photo') server is created successfully</b></h3>
+            <h3><b>Now create a route folder for all routes</b></h3>
+            <img  id="im1"  src="../img/carbon (10).png"  alt="" style="width:100%" height="800px" ><br><br><br>
+            <p>//call his route(usercon) folder to index.js ( const usercon = require(./controllers/ userCon);</p>
+            <h3><b>step8:-> for inserting data to db we will create a form by using EXPRESS-handlebars<br>
+                        1.create folder views<br>
+                        2.In views create folder layout and user<br>
+                        3.in layout folder make main layout folder make mainLayout.hbs file
+                        4.In user folder create add.hbs and list .hbs</b></h3>
+                        <img  id="im1"  src="../img/carbon (11).png"  alt="" style="width:100%" height="1000px" ><br><br><br>
+            <h2><b>CRUD operation is present in step:->7(photo)</b></h2>
+            <h2><b>PICTURE OF PROJECTS</b></h2>
+            <img  id="im1"  src="../img/Capture1.JPG"  alt="" style="width:100%" ><br><br><br>
+            <img  id="im1"  src="../img/Capture2.JPG"  alt="" style="width:100%" ><br><br><br>
+            <img  id="im1"  src="../img/Capture3.JPG"  alt="" style="width:100%" ><br><br><br>
+            <img  id="im1"  src="../img/Capture4.JPG"  alt="" style="width:100%" ><br><br><br>
+            
+                        <h2><b>FOR SOURCE CLICK BELOW ON THE BUTTON</b></h2>
+            
+            <a href="https://github.com/mohityyy/notes-taking-website"><button id="b1">click for SOURCE CODE</button></a>
+            <div class="str">
+            <h2><b>&nbsp;&nbsp;structure of files</b></h2><br>
+               <b> &nbsp;&nbsp;controllers---->usercon.js(all routes)<br>
+                &nbsp;&nbsp;models--------->db.js(for connection to database)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '_>note.js(for structure of database)<br>
+                &nbsp;&nbsp;public----->all static files<br>
+                &nbsp;&nbsp;views ------>all hbs files<br>
+                &nbsp;&nbsp;index.js--->root file</b>
+            </div>
+            
+            </div>
+            <div id="con" class="contact">
+                <h1>CONTACT</h1><br>
+                <i class="" style="width:30px"></i> DELHI, INDIA<br>
+                <i class="" style="width:30px"></i> INSTAGRAM: JSNOOBS<br>
+                <i class="" style="width:30px"> </i> Email: mohityadav@gmail.com<br>
+                <a href="https://github.com/mohityyy">
+                <i class="fa fa-git-square" style="font-size:36px"></i></a>
+                <a href="https://www.instagram.com/jsnoobs/">
+                <i class="fa fa-instagram" style="font-size:36px"></i></a>
+            
+                
+                <h4>&copy;JSNOOBS.All right reserved.Background image <a href="https://unsplash.com/s/photos/minimal-dark">unsplash</a></h4>
+                <h5>Powered by jsnoobs</h5>
+            </div>
+</body>
+</html>

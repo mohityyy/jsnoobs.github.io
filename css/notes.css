@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+.header{
+    background-color: crimson;
+    text-align: right;
+    height: 20px;
+    opacity: 1px;
+    
+    
+}
+.a1{
+    color: whitesmoke;
+}
+.a1:hover{
+    background-color: transparent;
+    color: transparent;
+}
+.head{
+   background-color: black;
+   color: cornsilk;
+   
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/dark3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.project{
+    background-color: transparent;
+    color: white;
+    width: 1000px;
+    margin-left: 250px;
+    box-shadow: 2px 2px 5px white;
+}
+.str{
+    background-color: white;
+    color: black;
+}
+#b1{
+    border-radius: 50px;
+    background-color: lightslategrey;
+    border-color: lightslategray;
+}
+#b1:hover{
+    background-color: lightsteelblue;
+    
+}
+.contact{
+    color: black;
+    background-image: url(../img/bench.jpg);
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+   
+    
+    
+}
