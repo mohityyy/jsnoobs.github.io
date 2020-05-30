@@ -25,12 +25,15 @@ body{
 .head{
    background-color: black;
    color: cornsilk;
+   width: 100%;
+   height: auto;
    
 }
 a{
     text-decoration: none;
 }
 #b1{
+    padding: 10px;
     border-radius: 50px;
     background-color: lightslategrey;
     border-color: lightslategray;
@@ -42,8 +45,8 @@ a{
 .project{
     background-color: transparent;
     color:white;
-    width: 1000px;
-    margin-left: 250px;
+    width: 100%;
+    height: auto;
     box-shadow: 2px 2px 5px white;
 }
 .contact{
@@ -52,6 +55,8 @@ a{
     padding-bottom: 50px;
     text-align: center;
     margin-top: 100px;
+    width: 100%;
+   height: auto;
    
     
     
