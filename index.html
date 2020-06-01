@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/jsnoobs.css" type="text/css">
     <script data-ad-client="ca-pub-8480715105262567" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
-<body>
-
+<body onload="return load()">
+<div id="loader" ></div>
     <div class="all">
         <div class="head">
             <h1>JSNOOBS</h1>
@@ -102,7 +102,13 @@
         </div>
     </div>
 
-    
+    <script>
+        var preloader = document.getElementById('loader');
+        function load(){
+            preloader.style.display = 'none';
+        }
+
+    </script>
 
 </body>
 </html>
